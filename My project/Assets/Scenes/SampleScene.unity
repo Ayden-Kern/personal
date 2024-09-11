@@ -395,6 +395,10 @@ PrefabInstance:
       propertyPath: up
       value: 273
       objectReference: {fileID: 0}
+    - target: {fileID: 2325675511101085061, guid: 0140118d5e57776429c4646821b2e520, type: 3}
+      propertyPath: dust
+      value: 
+      objectReference: {fileID: 2013678312}
     - target: {fileID: 2325675511101085062, guid: 0140118d5e57776429c4646821b2e520, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -413,11 +417,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2325675511101085063, guid: 0140118d5e57776429c4646821b2e520, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.97
+      value: -7.7
       objectReference: {fileID: 0}
     - target: {fileID: 2325675511101085063, guid: 0140118d5e57776429c4646821b2e520, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.26
+      value: -0.95
       objectReference: {fileID: 0}
     - target: {fileID: 2325675511101085063, guid: 0140118d5e57776429c4646821b2e520, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3919,7 +3923,7 @@ ParticleSystem:
     gravityModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 0.2
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -3972,7 +3976,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 4
+    type: 5
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
